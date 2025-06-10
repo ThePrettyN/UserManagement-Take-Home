@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-user-management-short-take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "express": "4.17.3",
+    "firebase-admin": "^11.11.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  },
+  "keywords": []
+}
